@@ -1,6 +1,7 @@
 #Node Modules
 #Just to practice
-./node_modules
+.node_modules
 
 #KEYS
-./env
+#Just to practice
+.env
