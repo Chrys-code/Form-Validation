@@ -12,10 +12,12 @@ form.addEventListener("submit", (e) => {
 
   if (inputs[0].value === "" || inputs[0].value == null) {
     messages.push("Pls e-mail");
+    return false;
   }
 
   if (inputs[1].value.length < 6) {
     messages.push("Your password is too short");
+    return false;
   }
 
   if (messages.length > 0) {
